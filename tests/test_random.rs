@@ -4,9 +4,9 @@ use std::{
 
 
 /// A factor that determines the amount of test iterations to run
-const TEST_FACTOR: usize = 32;
+const TEST_FACTOR: usize = 24;
 /// The maximum limit of the plaintext size to test
-const TEST_PLAINTEXT_LIMIT: u32 = 64 * 1024 * 1024;
+const TEST_PLAINTEXT_LIMIT: u32 = 32 * 1024 * 1024;
 
 
 /// The preamble for encryption with a random key
