@@ -1,0 +1,14 @@
+image: ubuntu
+
+build_script:
+  - curl https://sh.rustup.rs -sSf | sh -s -- -y
+  - export PATH="$HOME/.cargo/bin:/usr/local/sbin:/usr/local/bin:$PATH"
+  - wget https://github.com/jedisct1/libsodium/releases/download/1.0.17/libsodium-1.0.17.tar.gz
+  - tar xf libsodium-1.0.17.tar.gz
+  - cd libsodium-1.0.17 && ./configure && make check && sudo make install
+
+test_script:
+  - cargo test --verbose
+  - cargo test --verbose --release
+  - cargo test --verbose --features="use-maproper"
+  - cargo test --verbose --release --features="use-maproper"
