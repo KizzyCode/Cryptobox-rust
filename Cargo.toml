@@ -30,6 +30,7 @@ overflow-checks = true
 [features]
 default = []
 use-maproper = ["ma_proper"]
+use-maproper-volatile = ["ma_proper/volatile_fallback"]
 
 
 [dependencies]
