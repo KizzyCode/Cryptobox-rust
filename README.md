@@ -1,5 +1,7 @@
 [![License](https://img.shields.io/badge/License-BSD--2--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Travis CI](https://travis-ci.org/KizzyCode/Cryptobox.svg?branch=master)](https://travis-ci.org/KizzyCode/Cryptobox)
+[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/KizzyCode/Cryptobox?svg=true)](https://ci.appveyor.com/project/KizzyCode/cryptobox)
 
 
 # About Cryptobox

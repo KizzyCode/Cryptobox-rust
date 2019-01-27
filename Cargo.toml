@@ -11,6 +11,11 @@ repository = "https://github.com/KizzyCode/Cryptobox"
 readme = "README.md"
 
 
+[badges]
+travis-ci = { repository = "KizzyCode/Cryptobox" }
+appveyor = { repository = "KizzyCode/Cryptobox" }
+
+
 [[bin]]
 name = "cryptobox"
 
