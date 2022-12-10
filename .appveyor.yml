@@ -10,5 +10,5 @@ build_script:
 test_script:
   - cargo test --verbose
   - cargo test --verbose --release
-  - cargo test --verbose --features="use-maproper-volatile"
-  - cargo test --verbose --release --features="use-maproper-volatile"
+  - cargo test --verbose --features="maproper-volatile"
+  - cargo test --verbose --release --features="maproper-volatile"
