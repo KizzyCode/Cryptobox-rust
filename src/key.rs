@@ -1,4 +1,4 @@
-use crate::sodium_bindings::randombytes_buf;
+use crate::sodium::randombytes_buf;
 use std::env;
 
 
@@ -25,9 +25,9 @@ fn print_key(desc: &str, key: &[u8]) {
 fn from_env(key_hex: String) -> Vec<u8> {
 	// Filter non-hex-chars and parse nibbles
 	let parsed: Vec<u8> = key_hex.bytes().filter_map(|b| match b {
-		b @ b'0'...b'9' => Some(b - b'0'),
-		b @ b'a'...b'f' => Some((b + 10) - b'a'),
-		b @ b'A'...b'F' => Some((b + 10) - b'A'),
+		b @ b'0'..=b'9' => Some(b - b'0'),
+		b @ b'a'..=b'f' => Some((b + 10) - b'a'),
+		b @ b'A'..=b'F' => Some((b + 10) - b'A'),
 		_ => None
 	}).collect();
 	

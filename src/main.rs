@@ -13,7 +13,7 @@ macro_rules! fail {
 macro_rules! sodium {
 	($($arg:expr),* => $func:expr) => ({
 		unsafe {
-			use crate::sodium_bindings::sodium_init;
+			use crate::sodium::sodium_init;
 			assert!(sodium_init() >= 0, "Failed to initialize libsodium");
 			($func)($($arg as _),*)
 		}
@@ -27,7 +27,7 @@ static MA_PROPER: ma_proper::MAProper = ma_proper::MAProper;
 
 
 // Mods
-mod sodium_bindings;
+mod sodium;
 mod key;
 mod cryptobox;
 

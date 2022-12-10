@@ -1,7 +1,11 @@
-[![License](https://img.shields.io/badge/License-BSD--2--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Travis CI](https://travis-ci.org/KizzyCode/Cryptobox.svg?branch=master)](https://travis-ci.org/KizzyCode/Cryptobox)
-[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/KizzyCode/Cryptobox?svg=true)](https://ci.appveyor.com/project/KizzyCode/cryptobox)
+[![docs.rs](https://docs.rs/cryptobox/badge.svg)](https://docs.rs/cryptobox)
+[![License BSD-2-Clause](https://img.shields.io/badge/License-BSD--2--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
+[![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![crates.io](https://img.shields.io/crates/v/cryptobox.svg)](https://crates.io/crates/cryptobox)
+[![Download numbers](https://img.shields.io/crates/d/cryptobox.svg)](https://crates.io/crates/cryptobox)
+[![AppVeyor CI](https://ci.appveyor.com/api/projects/status/github/KizzyCode/Cryptobox-rust?svg=true)](https://ci.appveyor.com/project/KizzyCode/Cryptobox-rust)
+[![dependency status](https://deps.rs/crate/cryptobox/0.2.0/status.svg)](https://deps.rs/crate/cryptobox/0.2.0)
+
 
 
 # About Cryptobox

@@ -1,11 +1,11 @@
 [package]
 name = "cryptobox"
-edition = "2018"
-version = "0.1.0"
+edition = "2021"
+version = "0.2.0"
 authors = ["Keziah Biermann <development@kizzycode.de>"]
 description = "A KISS CLI-wrapper around libsodium's `cryptobox_easy`"
 categories = ["cryptography"]
-keywords = ["security", "safe", "cryptography", "libsodium", "cryptobox"]
+keywords = ["security", "cryptography", "libsodium", "cryptobox"]
 license = "BSD-2-Clause OR MIT"
 repository = "https://github.com/KizzyCode/Cryptobox"
 readme = "README.md"
@@ -29,12 +29,12 @@ overflow-checks = true
 
 [features]
 default = []
-use-maproper = ["ma_proper"]
-use-maproper-volatile = ["ma_proper/volatile_fallback"]
+maproper = ["ma_proper"]
+maproper-volatile = ["ma_proper/volatile_fallback"]
 
 
 [dependencies]
-ma_proper = { version = "0.1.1", optional = true }
+ma_proper = { version = "1.0.0", optional = true }
 
 [build-dependencies]
-pkg-config = "0.3.14"
+pkg-config = "0.3"

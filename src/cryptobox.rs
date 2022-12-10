@@ -1,5 +1,5 @@
 use crate::{
-	sodium_bindings::{
+	sodium::{
 		randombytes_buf,
 		crypto_secretbox_xchacha20poly1305_NONCEBYTES, crypto_secretbox_xchacha20poly1305_MACBYTES,
 		crypto_secretbox_xchacha20poly1305_easy, crypto_secretbox_xchacha20poly1305_open_easy
