@@ -7,13 +7,12 @@ description = "A KISS CLI-wrapper around libsodium's `cryptobox_easy`"
 categories = ["cryptography"]
 keywords = ["security", "cryptography", "libsodium", "cryptobox"]
 license = "BSD-2-Clause OR MIT"
-repository = "https://github.com/KizzyCode/Cryptobox"
+repository = "https://github.com/KizzyCode/Cryptobox-rust"
 readme = "README.md"
 
 
 [badges]
-travis-ci = { repository = "KizzyCode/Cryptobox" }
-appveyor = { repository = "KizzyCode/Cryptobox" }
+appveyor = { repository = "KizzyCode/Cryptobox-rust" }
 
 
 [[bin]]
